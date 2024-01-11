@@ -6,12 +6,12 @@
 Customer churn, the phenomenon where customers discontinue using a product or service. Identifying and mitigating customer churn is crucial for sustaining business growth and profitability. This project aims to leverage advanced analytics and machine learning techniques to predict customer churn in a telecom industry, enabling proactive retention strategies for the organization.
 ## Table Of Contents
 - [Introduction](#Intoduction)
-- [Data Description](# Data Description)
+- [Data Description](#Data-Description)
 - [Methodology](#Methodology)
-    - [Data Cleaning]( #DataCleaning)
-    - [EDA](#ExploratoryDataAnalysis)
-    - [Model Building](#ModelBuilding )
- - [Conclusion and Key Insights](#ConclusionsAndKeyInsights) 
+    - [Data Cleaning](#Data-Cleaning)
+    - [EDA](#Exploratory-Data-Analysis)
+    - [Model Building](#Model-Building )
+ - [Conclusion and Key Insights](#Conclusions-And-Key-Insights) 
 
 
 ## Intoduction
