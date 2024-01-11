@@ -28,6 +28,7 @@ Data can be accessed from[ here](https://github.com/deepanshak/Customer-Churn-An
 - claculating max tenure and grouping it to bins of 12 months.
 - dropping unnecessary variables.
 ### Exploratory Data Analysis 
+For complete analysis refer to file:[EDA](https://github.com/deepanshak/Customer-Churn-Analysis/blob/main/Churn%20Analysis%20-%20EDA.ipynb)
 Univariate Analysis
 - churn count based on various variables like gender, senior citizen, dependents,tenure_group.
   
@@ -60,7 +61,6 @@ Bivariate Analysis
 - Distribution of contract for churned & non churned customers.
   ![contract distribution for churned customer](https://github.com/deepanshak/Customer-Churn-Analysis/assets/139687677/48c36db1-b307-4f28-a270-038b4da488fe)
 
-For complete analysis refer to file:[EDA](https://github.com/deepanshak/Customer-Churn-Analysis/blob/main/Churn%20Analysis%20-%20EDA.ipynb)
 ### Model Building 
 Refer to file for [model building](https://github.com/deepanshak/Customer-Churn-Analysis/blob/main/Churn%20Analysis%20-%20Model%20Building.ipynb)
 #### Data Prepration
