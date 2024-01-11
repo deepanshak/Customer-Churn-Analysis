@@ -5,6 +5,13 @@
 ## Project Overview
 Customer churn, the phenomenon where customers discontinue using a product or service. Identifying and mitigating customer churn is crucial for sustaining business growth and profitability. This project aims to leverage advanced analytics and machine learning techniques to predict customer churn in a telecom industry, enabling proactive retention strategies for the organization.
 ## Table Of Contents
+- [Introduction](#Intoduction)
+- [Data Description](# Data Description)
+- [Methodology](#Methodology)
+    - [Data Cleaning]( #DataCleaning)
+    - [EDA](#ExploratoryDataAnalysis)
+    - [Model Building](#ModelBuilding )
+ - [Conclusion and Key Insights](#ConclusionsAndKeyInsights) 
 
 
 ## Intoduction
@@ -12,7 +19,7 @@ In this case study, end to end Exploratory Data Analysis has been performed, and
 
 ## Data Description
 The Dataset summarizes the usage behavior of about 7000 active users of this telecom service. The file is at a customer level with 19 variables.
-Data can be accessed from here.
+Data can be accessed from[ here](https://github.com/deepanshak/Customer-Churn-Analysis/blob/main/WA_Fn-UseC_-Telco-Customer-Churn.csv)
 ## Methodology
 ### Data Cleaning
 - Checking for null and duplicate values.
@@ -53,22 +60,22 @@ Bivariate Analysis
 - Distribution of contract for churned & non churned customers.
   ![contract distribution for churned customer](https://github.com/deepanshak/Customer-Churn-Analysis/assets/139687677/48c36db1-b307-4f28-a270-038b4da488fe)
 
-For complete analysis refer to file:
-### Model Building
+For complete analysis refer to file:[EDA](https://github.com/deepanshak/Customer-Churn-Analysis/blob/main/Churn%20Analysis%20-%20EDA.ipynb)
+### Model Building 
+Refer to file for [model building](https://github.com/deepanshak/Customer-Churn-Analysis/blob/main/Churn%20Analysis%20-%20Model%20Building.ipynb)
 #### Data Prepration
 - Defining the input variable and target variable.
 - Splitting the data into training and test sets.
 #### Algorithms Used:
-- Decision Tree Classifire
-- Random Forest Classifire
-- principal Component analysis
-- SMOTE 
+- [Decision Tree Classifire](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+- [Random Forest Classifire](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- [principal Component analysis](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+- [SMOTE ](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
 #### Model Evaluvation
 The algorithm showing the most optimum result is choosen based on various metrices like R^2 score, classification Report of predicted and Test variables and using confusion matrix.
 #### Pickled Model 
 Pickled the Random Forest model to import the model without loading this entire ipynb file, and utilize it for predictions.
-### Conclusions And Key Insights
-
+## Conclusions And Key Insights
 
 These are some of the quick insights from this case study:
 
